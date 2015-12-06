@@ -1,7 +1,9 @@
 # aspect-admin
 
-Download & install nodeJS fron https://nodejs.org/
+Download & install nodeJS from https://nodejs.org/
+
 To run application type:
+
 > npm install
 
 > npm run gulp
