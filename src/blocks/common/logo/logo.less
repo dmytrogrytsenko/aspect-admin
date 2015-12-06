@@ -1,0 +1,22 @@
+@logo-color: @page-color;
+
+.logo{
+    font-family: 'Chicle';
+    color: @logo-color;
+    text-shadow: 5px 5px 5px lightgray;
+    text-decoration: none;
+    display: inline-block;
+    
+    margin-right:20px; 
+    
+    &:before{
+        display: block;
+        font-size: 32px;
+        content: 'Aspect';
+    }
+    &:after{
+        display: block;
+        font-size: 13px;
+        content: 'explore all points of view'
+    }
+}
